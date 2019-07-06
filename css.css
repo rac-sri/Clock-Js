@@ -1,0 +1,47 @@
+h1 {
+	
+	color:white;
+}
+h3{
+	color:black;
+}
+.box{
+	text-align: center;
+	background-color: grey;
+	display:block;
+	width:500px;
+	margin-left: 25em;
+	height: 500px;transition: 2s;
+
+	/*padding: 15px 10px;
+	margin: 30px 250px;
+	*/
+
+}
+.head{
+	display: block;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.party{
+	position: absolute;
+	
+	z-index:10;
+	left: 580px;
+	top:400px;
+}
+.party:hover{
+    font-size: 37px;
+    font-weight: bold;
+}
+.date{
+   background-color: transparent;
+   padding: 20px;
+   position: absolute;
+   left: 580px;
+}
+.list{
+	display:none;
+	background-color: white;
+    
+}
